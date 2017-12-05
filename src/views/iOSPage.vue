@@ -1,18 +1,18 @@
 <template>
-  <div class="home-page">
+  <div class="ios-page">
   <header-bar></header-bar>
-  <home-view></home-view>
-</div>
+  <ios-view></ios-view>
+  </div>
 </template>
 
 <script>
 
 import HeaderBar from '../components/HeaderBar'
-import HomeView from '../components/HomeView'
+import iOSView from '../components/iOSView'
 
 export default {
-  name: 'pages-view',
-  components: { HeaderBar, HomeView },
+  name: 'ios-page',
+  components: { HeaderBar, iOSView },
   data () {
   },
   methods: {
@@ -20,8 +20,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.home-view {
+<style lang="scss">
+.ios-view {
   margin-top: 4.6rem;
   padding-top: 0.2rem;
 }

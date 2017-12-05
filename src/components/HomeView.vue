@@ -1,6 +1,17 @@
 <template>
   <div class="home-view">
     <div class="container">
+
+      <!-- 昨日 导航 -->
+      <div class="columns">
+        <p>
+
+            </p>
+        <p style="text-align: right">
+          <a href="/2017/11/30">今日力推：图解 hashmap / “调戏” 女网管朵儿</a>
+        </p>
+      </div>
+
       <!-- 标题 -->
       <div class="row">
         <h1 class="title">
@@ -82,6 +93,16 @@ export default {
 <style lang="scss">
 .home-view {
   .container {
+    .columns {
+      width: 100%;
+      float: left;
+      box-sizing: border-box;
+      line-height: 2;
+      font-size: 1.5em;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
     .row {
       .title {
         flex: 1;
@@ -111,13 +132,19 @@ export default {
 
       ul {
         width: auto !important;
-        margin-left: 1.3em;
-        // list-style: disc;
+        margin-left: 2.1em;
+        margin-top: 1.2rem;
+        list-style: disc;
         margin-bottom: 1.2em;
         display: block;
+        padding: 0;
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #222;
       }
 
       li {
+        margin-top:  1.2rem;
         list-style-type: disc;
       }
 
