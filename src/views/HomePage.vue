@@ -1,8 +1,8 @@
 <template>
   <div class="home-page">
-  <header-bar></header-bar>
-  <home-view></home-view>
-</div>
+    <header-bar></header-bar>
+    <home-view></home-view>
+  </div>
 </template>
 
 <script>
@@ -12,11 +12,7 @@ import HomeView from '../components/HomeView'
 
 export default {
   name: 'pages-view',
-  components: { HeaderBar, HomeView },
-  data () {
-  },
-  methods: {
-  }
+  components: { HeaderBar, HomeView }
 }
 </script>
 

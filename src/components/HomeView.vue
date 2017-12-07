@@ -84,6 +84,7 @@
 export default {
   name: 'home-view',
   data () {
+    return {}
   },
   methods: {
   }
